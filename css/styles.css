@@ -44,10 +44,12 @@ background-color: #FFFFFF;
 .page-header-container{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc
 }
 .page-nav{
     display: flex;
     align-items: center;
+    margin-right: 76px
 }
 .page-logo{
     font-family: "Raleway", sans-serif;
@@ -64,7 +66,7 @@ background-color: #FFFFFF;
 }
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .menu-link{
 display: block;
@@ -82,7 +84,7 @@ color: #404bbf;
 }
 .menu-adress{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .page-adress{
 font-style: normal;
@@ -114,6 +116,7 @@ color: #404bbf;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding: 188px;
 }
 .main-title{
     max-width: 496px;
@@ -142,18 +145,33 @@ color: #404bbf;
     cursor: pointer;
     background: #4d5ae5;
     text-align: center;
+    display: block;
 }
 .buy-now-btn:hover,
 .buy-now-btn:focus{
 background-color: #404BBF
 }
 /* SECTION 1 */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
 .contens-list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .list-item{
-    width: calc((100%-72px)) /4;
+    width: calc((100% - 72px) / 4);
 }
 .contens-list-item{
 font-weight: 500;
@@ -185,11 +203,13 @@ color: #434455;
 .portfolio{
 background-color: #F4F4FD;
 }
+.block{
+    padding: 32px 0 ;
+}
 .portfolio-list-item{
 background-color: #FFFFFF;
-width: calc((100%-72px)) /4;
+width: calc((100% - 72px) / 4);
 border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: #fff;
 }
@@ -201,9 +221,9 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
-padding-bottom: 72px;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 72px;
 }
 .portfolio-name{
     font-weight: 500;
@@ -213,6 +233,7 @@ margin-right: auto;
     color: #2e2f42;
     margin-top: 32px;
     text-align: center;
+    margin-bottom: 8px;
 }
 .portfolio-text{
     font-weight: 400;
@@ -221,17 +242,10 @@ margin-right: auto;
     letter-spacing: 0.02em;
     color: #434455;
     padding-bottom: 8px;
-    text-align: center;
     margin-bottom: 32px;
+    text-align: center; 
 }
 /* SECTION 3 */
-.container-two{
-    max-width: 1440px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .communication{
     font-weight: 700;
     font-size: 36px;
@@ -243,15 +257,17 @@ margin-right: auto;
     padding-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 72px;
     }
 .communication-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 24px;
+    row-gap: 48px;
 }
 .communication-item{
-    width:calc ((100% - 2 * 24px) / 3);
+    width: calc((100% - 48px) / 3); 
 }
 .communication-list-title{
     font-weight: 500;
@@ -260,6 +276,7 @@ margin-right: auto;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-top: 32px;
+    margin-bottom: 8px 
 }
 .communication-text{
     font-weight: 400;
@@ -276,6 +293,7 @@ border-right: 1px solid #e7e9fc;
 width: 360px;
 height: 120px;
 margin-bottom: 48px;
+padding: 32px 16px 
 }
 /* FOOTER */
 .page-footer{
@@ -284,6 +302,7 @@ max-width: 1440px;
 height: 312px;
     margin-left: auto;
     margin-right: auto;
+    padding: 100px 0;
 }
 .footer-text{
     font-weight: 400;
@@ -297,6 +316,8 @@ height: 312px;
     }
     .pag{
         padding-top: 100px;
+        display: inline-block;
+        margin-bottom: 16px;
     }
 .text-logo-two{
     font-family: "Raleway", sans-serif;
