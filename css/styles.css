@@ -61,6 +61,7 @@ border-bottom: 1px solid #e7e9fc;
     text-transform: uppercase;
     color: #4d5ae5;
     padding-right: 76px;
+    margin-right: 76px;
 }
 .text-logo{
     color: #2e2f42;;  
@@ -305,6 +306,9 @@ height: 312px;
     margin-right: auto;
     padding: 100px 0;
 }
+.container-logo{
+    padding: 100px 0;
+}
 .footer-text{
     font-weight: 400;
     font-size: 16px;
@@ -314,11 +318,6 @@ height: 312px;
         max-width: 264px;
         text-align: center;
         padding-top: 16px;
-    }
-    .logo-two{
-        padding-top: 100px;
-        display: inline-block;
-        margin-bottom: 16px;
     }
 .text-logo-two{
     font-family: "Raleway", sans-serif;
@@ -337,4 +336,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5;
+ display: inline-block;
+        margin-bottom: 16px;
 }
