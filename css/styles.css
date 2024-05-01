@@ -41,15 +41,18 @@ background-color: #FFFFFF;
   }
 
 /* HEADER STYLES */
+.page-header{
+border-bottom: 1px solid #e7e9fc;    
+}
 .page-header-container{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
 }
 .page-nav{
     display: flex;
     align-items: center;
     margin-right: 76px;
+    padding-right: 76px;
 }
 .page-logo{
     font-family: "Raleway", sans-serif;
@@ -59,7 +62,6 @@ background-color: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-right: 76px;
 }
 .text-logo{
     color: #2e2f42;;  
