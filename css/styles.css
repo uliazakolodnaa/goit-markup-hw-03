@@ -108,10 +108,8 @@ color: #404bbf;
 }
 /* HERO STYLES */
 .hero-container{
-    padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 331px;
-    padding-right: 331px;
+margin-right: auto;
+margin-left: auto;
 }
 .hero{
     background-color:#2e2f42;
@@ -233,7 +231,6 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
     text-align: center;
     margin-bottom: 8px;
 }
@@ -244,7 +241,6 @@ margin-bottom: 72px;
     letter-spacing: 0.02em;
     color: #434455;
     padding-bottom: 8px;
-    margin-bottom: 32px;
     text-align: center; 
 }
 /* SECTION 3 */
@@ -256,7 +252,6 @@ margin-bottom: 72px;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
@@ -277,7 +272,6 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px 
 }
 .communication-text{
@@ -292,21 +286,11 @@ margin-bottom: 72px;
     border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
-width: 360px;
-height: 120px;
-margin-bottom: 48px;
 padding: 32px 16px 
 }
 /* FOOTER */
 .page-footer{
 background: #2e2f42;
-max-width: 1440px;
-height: 312px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 100px 0;
-}
-.container-logo{
     padding: 100px 0;
 }
 .footer-text{
@@ -316,8 +300,6 @@ height: 312px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
         max-width: 264px;
-        text-align: center;
-        padding-top: 16px;
     }
 .text-logo-two{
     font-family: "Raleway", sans-serif;
